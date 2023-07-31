@@ -30,27 +30,28 @@ body {
   height: 80px;
   text-align: center;
   margin: 20px auto;
-  background-color: white;
+  
 
 }
 
 .Number-Box h4 {
-  color: black;
   font-size: 2.5rem;
   text-align: center;
 }
 
 .btn-container {
+  display: flex;
+  justify-content: center;
   height: 100px;
   width: 30%;
-  /* background-color: red; */
+  overflow: hidden;
 }
 
 .btn {
-  width: 45px;
+  width: 45%;
   background-color: black;
-  height: 100%;
-  font-size: 2rem;
+  height:80%;
+  font-size: 1.4rem;
   color: white;
   border: 1px solid white;
   margin: 0px 10px;
@@ -60,5 +61,15 @@ body {
 }
 
 .btn:hover {
-  font-size: 3.2rem;
+  font-size: 2rem;
+  margin: 0px 10px;
+}
+
+.reset-container{
+  width: 30%;
+  margin: 10px;
+  height:100px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
